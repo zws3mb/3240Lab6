@@ -43,7 +43,7 @@ def write_one_to_db_version4(dept, courseNum):
         cur.execute(sql_cmd, (dept, courseNum)) # use ? in command string and a tuple to fill in each ?
         # this is nice, clean, simple. Don't have to remember quotes.  Also, avoids security risk!
 
-
+#This is an edit for the merge section of Lab6
 
 
 # if __name__ == "__main__":
